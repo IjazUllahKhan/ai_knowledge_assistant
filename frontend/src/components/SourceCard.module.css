@@ -1,0 +1,46 @@
+.card {
+  border-radius: var(--radius-sm);
+  padding: 9px 12px;
+  border-left: 3px solid transparent;
+  background: var(--bg-tertiary);
+  margin-top: 6px;
+}
+.cardYt  { border-left-color: var(--red); }
+.cardPdf { border-left-color: var(--blue); }
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 5px;
+  flex-wrap: wrap;
+}
+
+.tagYt  { font-size: 10px; font-weight: 700; color: var(--red);  background: var(--red-dim);  padding: 2px 6px; border-radius: 4px; }
+.tagPdf { font-size: 10px; font-weight: 700; color: var(--blue); background: var(--blue-dim); padding: 2px 6px; border-radius: 4px; }
+
+.ident {
+  font-size: 11px;
+  color: var(--text-secondary);
+  font-family: var(--font-mono);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 180px;
+}
+
+.chunk {
+  font-size: 10px;
+  color: var(--text-muted);
+  background: var(--bg-hover);
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+.excerpt {
+  font-size: 12px;
+  color: var(--text-muted);
+  line-height: 1.55;
+}

@@ -1,0 +1,25 @@
+# Secrets — NEVER commit
+backend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Uploads and store
+backend/uploads/
+backend/faiss_store/*.faiss
+backend/faiss_store/*.pkl
+
+# Node
+frontend/node_modules/
+frontend/build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+
